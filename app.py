@@ -41,7 +41,7 @@ safety_settings: list[SafetySettingDict] = [
 
 # --- INÍCIO: Modificação do Modelo ---
 # Use gemini-1.5-flash que geralmente é mais eficiente
-MODEL_NAME = "gemini-1.5-flash-latest" # Ou "gemini-1.5-flash" se preferir uma versão específica
+MODEL_NAME = "gemini-1.5-flash" # Ou "gemini-1.5-flash" se preferir uma versão específica
 # --- FIM: Modificação do Modelo ---
 
 # Inicializa modelo Gemini principal
