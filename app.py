@@ -719,9 +719,6 @@ def train():
 
 # Execução
 if __name__ == '__main__':
-    if not api_key:
-        print("ERRO FATAL: API Key do Gemini não configurada.")
-    else:
-        port = int(os.getenv("PORT", 5000))  # Render define a variável PORT
-        print(f"Iniciando Flask app em host 0.0.0.0 porta {port}")
-        app.run(debug=False, host='0.0.0.0', port=port)
+    print("Iniciando Flask app na porta 5000")
+    app.run(debug=False, host='0.0.0.0', port=5000)
+
