@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "message": "Não vejo o meu veiculo o que fazer?",
+    "timestamp": "2025-05-12T15:32:07.158098"
+  },
+  {
+    "role": "assistant",
+    "message": "Para ver seu veículo no app, verifique se o serviço de rastreamento está ativo.  Ele custa R$ 49,90 por mês. Se estiver ativo e você ainda não consegue ver seu veículo, tente reiniciar o rastreador. As instruções para isso estão disponíveis no app ou no nosso site. Se o problema persistir após o reset, entre em contato com a Loovi para solicitar a troca do dispositivo.  Lembre-se que mesmo sem o rastreador funcionando, o plano inclui busca em caso de roubo ou furto.\n",
+    "timestamp": "2025-05-12T15:32:10.522000"
+  },
+  {
+    "role": "user",
+    "message": "como assim?\nexiste uma outra forma de ?",
+    "timestamp": "2025-05-12T15:32:51.308336"
+  },
+  {
+    "role": "assistant",
+    "message": "Desculpe a falta de clareza.  Se você não vê seu veículo no aplicativo, isso pode ser porque o serviço de rastreamento (que custa R$ 49,90 mensais e permite o monitoramento em tempo real) não está ativo.  \n\nSe o serviço de rastreamento *está* ativo e você ainda não consegue localizar seu veículo no aplicativo, existem duas possibilidades:\n\n1. **Problema com o rastreador:** Tente reiniciá-lo. As instruções estão no aplicativo ou no nosso site. Se o problema persistir, contate a Loovi para solicitar a troca do dispositivo.\n\n2. **Seu veículo não foi rastreado/registrado:** Se você não ativou o serviço de rastreamento, não terá a localização em tempo real disponível no app.  No entanto, lembre-se que a cobertura contra furto e roubo do seu plano continua válida, mesmo sem o rastreador.  Neste caso, entre em contato conosco e informe os detalhes para que possamos auxiliá-lo.\n\nQual dessas situações se aplica ao seu caso?  Por favor, me forneça mais detalhes para que eu possa ajudar melhor.\n",
+    "timestamp": "2025-05-12T15:32:55.469704"
+  }
+]

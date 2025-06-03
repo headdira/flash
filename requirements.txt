@@ -1,0 +1,7 @@
+Flask
+python-dotenv
+google-generativeai
+faiss-cpu
+numpy
+sentence-transformers
+zlib-state

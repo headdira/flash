@@ -1,0 +1,52 @@
+[
+  {
+    "role": "user",
+    "message": "Cobraça de equipamentos ? como devor fazer?",
+    "timestamp": "2025-05-12T11:38:05.176779"
+  },
+  {
+    "role": "assistant",
+    "message": "A base de conhecimento não possui informações sobre cobrança de equipamentos.\n",
+    "timestamp": "2025-05-12T11:38:06.916132"
+  },
+  {
+    "role": "user",
+    "message": "Drive safe o que vc conhecer ?",
+    "timestamp": "2025-05-12T11:40:03.989659"
+  },
+  {
+    "role": "assistant",
+    "message": "A base de conhecimento não possui informações sobre \"Drive safe\".\n",
+    "timestamp": "2025-05-12T11:40:05.721940"
+  },
+  {
+    "role": "user",
+    "message": "suporte preventivo  o que fazer?",
+    "timestamp": "2025-05-12T11:42:23.982490"
+  },
+  {
+    "role": "assistant",
+    "message": "A base de conhecimento não possui informações sobre suporte preventivo.\n",
+    "timestamp": "2025-05-12T11:42:25.078580"
+  },
+  {
+    "role": "user",
+    "message": "Quem é voce ?",
+    "timestamp": "2025-05-12T11:43:13.697266"
+  },
+  {
+    "role": "assistant",
+    "message": "Eu sou a Lovia, inteligência artificial da Loovi.\n",
+    "timestamp": "2025-05-12T11:43:14.718986"
+  },
+  {
+    "role": "user",
+    "message": "Estou com duvida no suporte preventivo",
+    "timestamp": "2025-05-12T11:43:32.372827"
+  },
+  {
+    "role": "assistant",
+    "message": "A base de conhecimento não possui informações sobre suporte preventivo.\n",
+    "timestamp": "2025-05-12T11:43:33.464280"
+  }
+]

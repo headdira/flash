@@ -1,0 +1,72 @@
+[
+  {
+    "role": "user",
+    "message": "Como fazemos o suporte preventivo \n?",
+    "timestamp": "2025-05-12T15:01:39.378700"
+  },
+  {
+    "role": "assistant",
+    "message": "O suporte preventivo para o dispositivo de rastreamento Loovi não é detalhado na nossa base de conhecimento.  A instalação do rastreador é opcional, e o nosso suporte se concentra principalmente na resolução de problemas após a instalação, incluindo troca do dispositivo, reset e suporte em casos de furto ou roubo.  Para informações sobre suporte preventivo,  recomendo entrar em contato diretamente com a Loovi.\n",
+    "timestamp": "2025-05-12T15:01:43.300205"
+  },
+  {
+    "role": "user",
+    "message": "Não entedir sua pergunta",
+    "timestamp": "2025-05-12T15:12:08.945055"
+  },
+  {
+    "role": "assistant",
+    "message": "Desculpe, não entendi sua pergunta.  Por favor, reformule sua pergunta para que eu possa ajudá-lo.  Se a sua pergunta for sobre o dispositivo de rastreamento Loovi, lembre-se que nosso suporte se concentra na resolução de problemas *após* a instalação. Para suporte preventivo, você deve entrar em contato diretamente com a Loovi.\n",
+    "timestamp": "2025-05-12T15:12:12.563752"
+  },
+  {
+    "role": "user",
+    "message": "Não entedir sua responta",
+    "timestamp": "2025-05-12T15:12:47.011816"
+  },
+  {
+    "role": "assistant",
+    "message": "Desculpe, ainda não entendi sua resposta.  Por favor, tente reformular sua mensagem.  Se sua pergunta for sobre o dispositivo de rastreamento Loovi, lembre-se que nosso suporte se concentra na resolução de problemas *após* a instalação. Para suporte preventivo ou outras questões não relacionadas à resolução de problemas após a instalação, você deve entrar em contato diretamente com a Loovi.\n",
+    "timestamp": "2025-05-12T15:12:54.781403"
+  },
+  {
+    "role": "user",
+    "message": "O que devo fazer em casos de suporte prevetivo",
+    "timestamp": "2025-05-12T15:13:41.871332"
+  },
+  {
+    "role": "assistant",
+    "message": "Para suporte preventivo relacionado ao dispositivo de rastreamento Loovi, como por exemplo, antes da instalação,  você deve entrar em contato diretamente com a Loovi.  Nosso suporte técnico se concentra na resolução de problemas que ocorrem *após* a instalação do dispositivo.\n",
+    "timestamp": "2025-05-12T15:13:44.315898"
+  },
+  {
+    "role": "user",
+    "message": "Como assim?",
+    "timestamp": "2025-05-12T15:15:01.212200"
+  },
+  {
+    "role": "assistant",
+    "message": "Nosso suporte técnico se concentra em ajudar com problemas que surgem *depois* de você ter instalado o rastreador Loovi.  Questões antes da instalação, como dúvidas sobre o serviço ou suporte preventivo, devem ser direcionadas diretamente à Loovi, pois não fazem parte do escopo do nosso suporte técnico pós-instalação.\n",
+    "timestamp": "2025-05-12T15:15:03.566841"
+  },
+  {
+    "role": "user",
+    "message": "Como  podemos fazer com o equipamento que está travado",
+    "timestamp": "2025-05-12T15:30:42.859598"
+  },
+  {
+    "role": "assistant",
+    "message": "Para solucionar o problema com o equipamento travado, por favor, tente o reset descrito no artigo 3 da nossa base de conhecimento.  Se o reset não resolver o problema, você precisará substituir o dispositivo.  Para isso, embale apenas o dispositivo defeituoso e envie-o pelos Correios usando o código de devolução (conforme descrito no artigo 1).  Um novo dispositivo será enviado após a postagem.  O uso de um rastreador para o envio é opcional (artigo 2).\n",
+    "timestamp": "2025-05-12T15:30:45.944353"
+  },
+  {
+    "role": "user",
+    "message": "onde tenho acesso a base de conhecimento ?",
+    "timestamp": "2025-05-12T15:31:21.303993"
+  },
+  {
+    "role": "assistant",
+    "message": "Desculpe, mas não tenho informações sobre como acessar a nossa base de conhecimento.  Meu suporte se concentra em problemas *após* a instalação do rastreador Loovi.  Para questões sobre o serviço ou acesso à base de conhecimento, você precisará entrar em contato diretamente com a Loovi.\n",
+    "timestamp": "2025-05-12T15:31:23.957587"
+  }
+]

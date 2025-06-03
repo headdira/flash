@@ -1,0 +1,72 @@
+[
+  {
+    "role": "user",
+    "message": "ola",
+    "timestamp": "2025-05-13T17:03:21.466808"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Como posso ajudar você hoje?\n",
+    "timestamp": "2025-05-13T17:03:24.298917"
+  },
+  {
+    "role": "user",
+    "message": "suporte tecnico",
+    "timestamp": "2025-05-13T17:03:41.961590"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá!  Em que posso te ajudar com o suporte técnico do Loovi?  Posso te ajudar com a instalação, troca ou reset do seu dispositivo?  Se você está tendo problemas técnicos, a troca do dispositivo pode ser uma solução.  Para instruções detalhadas sobre este procedimento, consulte o artigo \"Como é feito o procedimento de troca do dispositivo\".  Se o problema envolve roubo ou furto, também podemos te auxiliar, trabalhando em parceria com órgãos de segurança.  Por favor, descreva o seu problema com mais detalhes.\n",
+    "timestamp": "2025-05-13T17:03:44.666413"
+  },
+  {
+    "role": "user",
+    "message": "meu rastreador não mostra a localização do meu veiculo",
+    "timestamp": "2025-05-13T17:05:01.433585"
+  },
+  {
+    "role": "assistant",
+    "message": "Para solucionarmos o problema com a localização do seu veículo no aplicativo Loovi, preciso de algumas informações.  Você possui o serviço de rastreamento ativo?  Este serviço custa R$ 49,90 mensais.  O aplicativo Loovi só mostrará a localização em tempo real se o rastreador estiver instalado corretamente e o serviço estiver ativo.  Por favor, confirme se ambos estão funcionando corretamente. Se o problema persistir após a verificação, entre em contato novamente para que possamos verificar o funcionamento do rastreador e/ou do aplicativo.\n",
+    "timestamp": "2025-05-13T17:05:04.088728"
+  },
+  {
+    "role": "user",
+    "message": "possuo o serviço de rastreamento ativo e o dispositivo esta instalado corretamente e mesmo assim não mostra a localização",
+    "timestamp": "2025-05-13T17:05:50.678081"
+  },
+  {
+    "role": "assistant",
+    "message": "Ok.  Como o serviço de rastreamento está ativo e o dispositivo está corretamente instalado, vamos verificar outras possibilidades.  Baseado no nosso conhecimento, o problema pode ser uma falha na conexão do dispositivo ou um problema com o servidor do aplicativo Loovi.  Por favor, tente reiniciar o aplicativo e seu celular.  Se o problema persistir após isso,  entre em contato conosco novamente para que possamos diagnosticar a conexão do seu dispositivo e verificar a situação do servidor.  Em alguns casos, pode ser necessária uma troca do dispositivo.\n",
+    "timestamp": "2025-05-13T17:05:53.299256"
+  },
+  {
+    "role": "user",
+    "message": "reiniciei o aplicativo e o celular e mesmo assim não voltou",
+    "timestamp": "2025-05-13T17:06:27.422797"
+  },
+  {
+    "role": "assistant",
+    "message": "Ok. Já que reiniciar o aplicativo e o celular não resolveu o problema, vamos prosseguir com as próximas etapas de solução.  Baseado em nossa base de conhecimento, a próxima tentativa seria um \"reset\" do seu dispositivo.  Isso envolve desconectar e reconectar a bateria do rastreador (conforme instruções no artigo 2 da nossa base de conhecimento).  Se isso também não funcionar, infelizmente a troca do dispositivo será necessária.  Neste caso, por favor, embale o dispositivo e envie para a Loovi para receber um novo (conforme instruções no artigo 1).  Se você suspeita de um problema no servidor, por favor, consulte o artigo 3 para obter instruções adicionais.  Por favor, me avise o resultado do \"reset\" do dispositivo ou se você prefere prosseguir com a troca.\n",
+    "timestamp": "2025-05-13T17:06:30.671380"
+  },
+  {
+    "role": "user",
+    "message": "fiz o reset e não resolveu ainda",
+    "timestamp": "2025-05-13T17:08:16.112615"
+  },
+  {
+    "role": "assistant",
+    "message": "Entendo.  Como o reset do dispositivo não resolveu o problema,  a próxima etapa é solicitar a troca do dispositivo.  Por favor, embale **apenas o dispositivo** (sem a Loovi Box e o cabo) e leve-o aos Correios utilizando o código de devolução que lhe permitirá o envio gratuito.  Após o envio, entraremos em contato para informá-lo sobre o envio do seu novo dispositivo.  Você tem o código de devolução? Se não, preciso que me informe para que eu possa enviá-lo.\n",
+    "timestamp": "2025-05-13T17:08:19.009380"
+  },
+  {
+    "role": "user",
+    "message": "me fala a receita de bolo",
+    "timestamp": "2025-05-13T17:53:18.012017"
+  },
+  {
+    "role": "assistant",
+    "message": "Desculpe, mas não tenho informações sobre receitas de bolo além da menção a uma \"Receita de bolo 2 ovos e farinha\" na nossa base de conhecimento.  Essa informação é muito vaga para fornecer uma receita completa.  Posso ajudar com outras questões relacionadas ao seu dispositivo Loovi?\n",
+    "timestamp": "2025-05-13T17:53:21.617262"
+  }
+]

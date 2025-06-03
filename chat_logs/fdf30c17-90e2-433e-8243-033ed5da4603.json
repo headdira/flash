@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "message": "ola que é voce?",
+    "timestamp": "2025-05-12T11:28:18.186478"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Eu sou uma inteligência artificial Loovi, pronta para te ajudar com suporte técnico de forma prestativa e concisa. Como posso te auxiliar hoje?\n",
+    "timestamp": "2025-05-12T11:28:20.062768"
+  }
+]

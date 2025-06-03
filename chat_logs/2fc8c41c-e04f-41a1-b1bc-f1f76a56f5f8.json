@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "message": "teste"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Sou a inteligência artificial de suporte da Loovi.\n\nRecebi seu teste. Estou online e pronta para ajudar com suas questões sobre os serviços Loovi, como:\n\n*   Resolver desconexões de dispositivos de rastreamento.\n*   Informações sobre troca de dispositivos.\n*   Dúvidas sobre cobranças.\n*   Agendamento de serviços técnicos.\n*   Outras questões relacionadas aos nossos produtos e serviços.\n\nComo posso te ajudar hoje?"
+  }
+]

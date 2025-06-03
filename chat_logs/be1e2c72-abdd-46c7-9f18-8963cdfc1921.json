@@ -1,0 +1,52 @@
+[
+  {
+    "role": "user",
+    "message": "O que devor fazer em casos de duvidas sobre o serviços de rastreamento",
+    "timestamp": "2025-05-12T15:39:19.184953"
+  },
+  {
+    "role": "assistant",
+    "message": "Para dúvidas sobre o serviço de rastreamento Loovi, primeiro verifique se você possui o serviço adicional de rastreamento (custando R$ 49,90).  O plano básico só inclui rastreamento em casos de furto ou roubo. Se o problema persistir após verificar isso, por favor, forneça mais detalhes sobre a sua dúvida.\n",
+    "timestamp": "2025-05-12T15:39:23.048472"
+  },
+  {
+    "role": "user",
+    "message": "como funcionar o serviço de rastreamento?",
+    "timestamp": "2025-05-12T15:39:56.293868"
+  },
+  {
+    "role": "assistant",
+    "message": "O serviço de rastreamento Loovi, um serviço adicional pago (R$ 49,90), permite o monitoramento em tempo real da localização do seu veículo através do aplicativo Loovi.  Você pode visualizar a localização atual e o histórico de rotas percorridas.  O rastreador é instalado na porta OBD do seu veículo.  Este serviço também inclui suporte 24/7 e parceria com órgãos de segurança para auxiliar na localização do veículo em caso de furto ou roubo.  Lembre-se que o plano básico *não* inclui rastreamento em tempo real; apenas a busca em caso de furto ou roubo, com ou sem o rastreador instalado.\n",
+    "timestamp": "2025-05-12T15:39:59.855423"
+  },
+  {
+    "role": "user",
+    "message": "Como consigo verificar meu carro?",
+    "timestamp": "2025-05-12T15:40:52.771552"
+  },
+  {
+    "role": "assistant",
+    "message": "Para verificar a localização do seu carro em tempo real, você precisa ter o serviço de rastreamento veicular da Loovi ativo (R$ 49,90 mensais) e o aplicativo Loovi instalado em seu celular.  Abra o aplicativo e verifique a localização do seu veículo no mapa. Se você não possui o serviço de rastreamento, você só poderá verificar a localização do seu veículo caso ele seja furtado ou roubado, entrando em contato com o suporte da Loovi.\n",
+    "timestamp": "2025-05-12T15:40:55.973431"
+  },
+  {
+    "role": "user",
+    "message": "Cobraça de retorno de equipamento",
+    "timestamp": "2025-05-12T15:41:25.540225"
+  },
+  {
+    "role": "assistant",
+    "message": "Para devolver seu equipamento, por favor, embale-o cuidadosamente, **excluindo a Loovi Box e o cabo**, e envie-o pelos Correios utilizando o código de devolução que lhe foi fornecido.  Este envio é gratuito. Após o recebimento do seu equipamento, enviaremos um novo em até 7 dias úteis.\n",
+    "timestamp": "2025-05-12T15:41:28.445299"
+  },
+  {
+    "role": "user",
+    "message": "Como faço reset dos equipamentos ?",
+    "timestamp": "2025-05-12T15:42:00.298239"
+  },
+  {
+    "role": "assistant",
+    "message": "Para resetar o seu dispositivo, abra-o, desconecte a bateria por alguns segundos, reconecte-a, feche o dispositivo e conecte-o novamente ao veículo. Se este procedimento não resolver o problema, você precisará solicitar a troca do dispositivo entrando em contato conosco para iniciar o processo de envio do dispositivo danificado e recebimento de um novo.\n",
+    "timestamp": "2025-05-12T15:42:02.673775"
+  }
+]

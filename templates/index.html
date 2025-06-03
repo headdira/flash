@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flash</title>
+    
+    <!-- Fontes e Ícones -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+    
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    
+    <style>
+        * { font-family: 'Poppins', sans-serif; }
+        .message-enter { animation: messageEnter 0.3s ease-out; }
+        @keyframes messageEnter {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .typing-indicator {
+            display: inline-block;
+            position: relative;
+            width: 60px;
+            height: 30px;
+        }
+        .typing-dot {
+            position: absolute;
+            width: 8px;
+            height: 8px;
+            background: #ddd;
+            border-radius: 50%;
+            animation: typing 1.4s infinite;
+        }
+        @keyframes typing {
+            0%, 100% { transform: translateY(0); }
+            30% { transform: translateY(-8px); }
+        }
+        .prose :where(code):not(:where([class~="not-prose"] *)) {
+            background: rgba(135, 131, 120, 0.15);
+            padding: 0.2em 0.4em;
+            border-radius: 3px;
+            font-size: 0.9em;
+        }
+    </style>
+</head>
+<body class="bg-neutral-50">
+    <div class="flex flex-col h-screen max-w-3xl mx-auto">
+        <!-- Cabeçalho -->
+        <div class="p-4 bg-white border-b flex items-center justify-between">
+            <div class="flex items-center gap-4">
+                <img src="{{ url_for('static', filename='img/logo4.png') }}" alt="Logo" class="h-36">
+                <h1 class="text-xl font-semibold"></h1>
+            </div>
+            <nav class="space-x-4">
+                <a href="{{ url_for('train') }}" class="text-indigo-500 hover:underline">Treinamento</a>
+            </nav>
+        </div>
+
+        <!-- Área do Chat -->
+        <div id="chat-container" class="flex-1 overflow-y-auto p-4 space-y-4">
+            <!-- Mensagens serão adicionadas aqui dinamicamente -->
+            
+            <!-- Loading Indicator -->
+           
+        </div>
+        <div id="loading" class="hidden items-center gap-2 text-gray-500">
+            <div class="typing-indicator">
+                <div class="typing-dot" style="left: 0; animation-delay: 0s"></div>
+                <div class="typing-dot" style="left: 20px; animation-delay: 0.2s"></div>
+                <div class="typing-dot" style="left: 40px; animation-delay: 0.4s"></div>
+            </div>
+            <span class="text-sm">Processando...</span>
+        </div>
+        <!-- Input Area -->
+        <div class="p-4 bg-white border-t">
+            <form id="chat-form" class="relative">
+                <div class="flex gap-2">
+                    <textarea 
+                        id="question" 
+                        name="question"
+                        rows="1"
+                        placeholder="Digite sua mensagem..." 
+                        class="flex-1 p-3 pr-12 resize-none border rounded-lg focus:outline-none focus:ring-2 focus:ring-indigo-500"
+                        style="scrollbar-width: thin;"
+                    ></textarea>
+                    <button 
+                        type="submit"
+                        class="self-end p-3 text-white bg-indigo-500 rounded-lg hover:bg-indigo-700 transition-colors"
+                    >
+                        <i class="bi bi-send"></i>
+                    </button>
+                </div>
+            </form>
+        </div>
+    </div>
+
+    <script>
+        const form = document.getElementById('chat-form');
+        const chatContainer = document.getElementById('chat-container');
+        const loadingIndicator = document.getElementById('loading');
+        
+        form.addEventListener('submit', async (e) => {
+            e.preventDefault();
+            const formData = new FormData(form);
+            const question = formData.get('question');
+            
+            // Add user message
+            addMessage(question, 'user');
+            form.reset();
+            
+            // Show loading
+            loadingIndicator.classList.remove('hidden');
+            
+            try {
+                const response = await fetch('/chat', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify({ question }),
+                });
+                
+                const data = await response.json();
+                addMessage(data.answer, 'ai');
+            } catch (error) {
+                addMessage('Desculpe, ocorreu um erro. Tente novamente.', 'error');
+            }
+            
+            // Hide loading
+            loadingIndicator.classList.add('hidden');
+        });
+
+        function addMessage(content, type) {
+            const messageDiv = document.createElement('div');
+            messageDiv.className = `message-enter p-4 rounded-xl max-w-[80%] ${
+                type === 'user' 
+                    ? 'ml-auto bg-indigo-600 text-white' 
+                    : 'bg-white border shadow-sm'
+            }`;
+            
+            // Format AI responses with Markdown
+            const formattedContent = type === 'ai' ? marked.parse(content) : content;
+            
+            messageDiv.innerHTML = `
+                <div class="prose prose-sm max-w-none">
+                    ${formattedContent}
+                </div>
+            `;
+            
+            chatContainer.appendChild(messageDiv);
+            chatContainer.scrollTop = chatContainer.scrollHeight;
+        }
+
+        // Auto-resize textarea
+        const textarea = document.getElementById('question');
+        textarea.addEventListener('input', () => {
+            textarea.style.height = 'auto';
+            textarea.style.height = textarea.scrollHeight + 'px';
+        });
+    </script>
+</body>
+</html>

@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "message": "ola tudo bem?",
+    "timestamp": "2025-05-12T10:38:44.635408"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Tudo bem por aqui. Em que posso ajudar?\n",
+    "timestamp": "2025-05-12T10:38:47.296070"
+  }
+]

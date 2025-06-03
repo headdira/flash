@@ -1,0 +1,18 @@
+[
+  {
+    "role": "user",
+    "message": "ola amigo"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Como posso te ajudar hoje?\n"
+  },
+  {
+    "role": "user",
+    "message": "qual sua versão do gemini?"
+  },
+  {
+    "role": "assistant",
+    "message": "Como uma inteligência artificial Loovi, não utilizo o Gemini. Sou um modelo de linguagem grande treinado pelo Google."
+  }
+]

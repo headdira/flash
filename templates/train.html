@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Train AI</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        body { padding: 20px; }
+        .container { max-width: 800px; }
+        .card { margin-bottom: 20px; }
+        .form-section { margin-bottom: 40px; padding-bottom: 20px; border-bottom: 1px solid #eee;}
+        h2 { margin-bottom: 20px; }
+        small { display: block; margin-top: .25rem; color: #6c757d; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Train AI Knowledge Base</h1>
+        <a href="{{ url_for('index') }}" class="btn btn-secondary mb-3">Back to Chat</a>
+
+        {% with messages = get_flashed_messages(with_categories=true) %}
+            {% if messages %}
+                {% for category, message in messages %}
+                <div class="alert alert-{{ category }} alert-dismissible fade show" role="alert">
+                    {{ message }}
+                    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                {% endfor %}
+            {% endif %}
+        {% endwith %}
+
+        <div class="form-section">
+            <h2>Train with Text</h2>
+            <form method="POST" action="{{ url_for('train') }}">
+                <input type="hidden" name="training_type" value="text">
+                <div class="form-group">
+                    <label for="article_title">Article Title (Optional):</label>
+                    <input type="text" class="form-control" id="article_title" name="article_title" placeholder="e.g., Troubleshooting Guide">
+                </div>
+                <div class="form-group">
+                    <label for="training_text">Training Text:</label>
+                    <textarea class="form-control" id="training_text" name="training_text" rows="10" placeholder="Paste your article content here. Separate sections with double line breaks."></textarea>
+                </div>
+                <button type="submit" class="btn btn-primary">Train with Text</button>
+            </form>
+        </div>
+
+        <div class="form-section">
+            <h2>Train from API</h2>
+            <form method="POST" action="{{ url_for('train') }}">
+                <input type="hidden" name="training_type" value="api">
+                <div class="form-group">
+                    <label for="api_title">Data Source Title (Required):</label>
+                    <input type="text" class="form-control" id="api_title" name="api_title" placeholder="e.g., Product Specs API" required>
+                </div>
+                <div class="form-group">
+                    <label for="api_url">API URL (Required):</label>
+                    <input type="url" class="form-control" id="api_url" name="api_url" placeholder="https://api.example.com/data" required>
+                </div>
+                <div class="form-group">
+                    <label for="api_method">HTTP Method:</label>
+                    <select class="form-control" id="api_method" name="api_method">
+                        <option value="GET" selected>GET</option>
+                        <option value="POST">POST</option>
+                        </select>
+                </div>
+                <div class="form-group">
+                    <label for="api_headers">Headers (JSON format):</label>
+                    <textarea class="form-control" id="api_headers" name="api_headers" rows="3" placeholder='{"Authorization": "Bearer YOUR_TOKEN", "X-Custom-Header": "Value"}'></textarea>
+                    <small>Example: {"Content-Type": "application/json"}</small>
+                </div>
+                <div class="form-group">
+                    <label for="api_body">Request Body (Primarily for POST, JSON or plain text):</label>
+                    <textarea class="form-control" id="api_body" name="api_body" rows="4" placeholder='{"param1": "value1", "param2": "value2"} or plain text for non-JSON POSTs'></textarea>
+                    <small>If Content-Type in headers is application/json, this will be sent as JSON. Otherwise, as form data or raw string.</small>
+                </div>
+                <div class="form-group">
+                    <label for="api_content_key">Content Extraction Key (Dot-separated for nested JSON):</label>
+                    <input type="text" class="form-control" id="api_content_key" name="api_content_key" placeholder="e.g., data.text or results.0.summary">
+                    <small>
+                        Leave blank if the API returns plain text directly.
+                        Leave blank if the API returns JSON and you want to store the entire stringified JSON.
+                        Example for nested JSON: if response is `{"response": {"docs": [{"title": "A", "body": "Text A"}]}}`, key could be `response.docs.0.body`.
+                        If the key points to a list of strings, they will be joined by newlines.
+                    </small>
+                </div>
+                <button type="submit" class="btn btn-info">Fetch and Train from API</button>
+            </form>
+        </div>
+
+
+        <h2>Existing Trained Data</h2>
+        {% if articles %}
+        <ul class="list-group">
+            {% for article in articles %}
+            <li class="list-group-item d-flex justify-content-between align-items-center">
+                <div>
+                    <strong>{{ article.title }}</strong> ({{ article.filename }})<br>
+                    <small>Created: {{ article.created_at }}, Sections: {{ article.sections }}, Size: {{ article.total_size_kb }} KB</small>
+                </div>
+                </li>
+            {% endfor %}
+        </ul>
+        {% else %}
+        <p>No training data found.</p>
+        {% endif %}
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

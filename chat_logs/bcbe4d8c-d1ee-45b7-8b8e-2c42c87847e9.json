@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "message": "ola quem é voce?",
+    "timestamp": "2025-05-12T11:24:54.783584"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Eu sou um modelo de linguagem grande, treinado pelo Google. Sou um tipo de inteligência artificial.\n",
+    "timestamp": "2025-05-12T11:24:56.920455"
+  },
+  {
+    "role": "user",
+    "message": "quem voce é?",
+    "timestamp": "2025-05-12T11:26:24.439142"
+  },
+  {
+    "role": "assistant",
+    "message": "Eu sou um modelo de linguagem grande, treinado pelo Google. Sou um tipo de inteligência artificial.\n",
+    "timestamp": "2025-05-12T11:26:26.480027"
+  }
+]
