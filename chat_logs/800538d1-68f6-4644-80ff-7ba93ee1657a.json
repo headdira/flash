@@ -1,0 +1,32 @@
+[
+  {
+    "role": "user",
+    "message": "OI chat",
+    "timestamp": "2025-05-13T08:54:10.954749"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Como posso ajudar você hoje?\n",
+    "timestamp": "2025-05-13T08:54:14.494343"
+  },
+  {
+    "role": "user",
+    "message": "Como funciona a troca de rastreadores?",
+    "timestamp": "2025-05-13T08:54:30.608196"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Para trocar seu rastreador Loovi, você precisa embalar apenas o dispositivo (mantendo a Loovi Box e o cabo) em uma caixa de papelão e levá-lo aos Correios utilizando o código de devolução fornecido (a postagem é gratuita). Após o envio, um novo dispositivo será enviado ao seu endereço em até 7 dias úteis.  Lembre-se que a troca é necessária apenas se o reset do dispositivo não resolver os problemas de funcionamento.\n",
+    "timestamp": "2025-05-13T08:54:34.288862"
+  },
+  {
+    "role": "user",
+    "message": "como realizar a troca no crm?",
+    "timestamp": "2025-05-13T08:55:26.190746"
+  },
+  {
+    "role": "assistant",
+    "message": "Desculpe, mas não tenho informações sobre como realizar a troca de rastreadores no CRM.  Meu conhecimento se limita ao processo físico de envio do dispositivo para troca, conforme descrito no nosso banco de conhecimento.  Para informações sobre procedimentos no CRM, por favor, contacte o suporte do seu CRM ou consulte a documentação interna da sua empresa.\n",
+    "timestamp": "2025-05-13T08:55:28.708562"
+  }
+]

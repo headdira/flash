@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "message": "voce ficou bem legal",
+    "timestamp": "2025-05-12T15:21:34.128808"
+  },
+  {
+    "role": "assistant",
+    "message": "Agradeço o elogio!  No entanto, como assistente de suporte técnico da Loovi, meu foco principal é auxiliar com questões relacionadas ao rastreamento veicular.  Posso ajudar com alguma dúvida sobre instalação, troca ou reset do seu dispositivo?\n",
+    "timestamp": "2025-05-12T15:21:37.495077"
+  },
+  {
+    "role": "user",
+    "message": "no momento não, pode descansar",
+    "timestamp": "2025-05-12T15:28:38.570731"
+  },
+  {
+    "role": "assistant",
+    "message": "Entendo.  Como não tenho nenhuma tarefa pendente relacionada ao seu rastreamento veicular, estou à disposição caso necessite de algo posteriormente.  Se precisar de ajuda com a Loovi no futuro, pode me contatar novamente.\n",
+    "timestamp": "2025-05-12T15:28:41.851983"
+  }
+]

@@ -1,0 +1,14 @@
+[
+  {
+    "role": "user",
+    "message": "preciso saber como funciona o serviço de rastreamento da loovi"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Entendo que você gostaria de saber como funciona o serviço de rastreamento da Loovi.\n\nNo entanto, os documentos de suporte fornecidos detalham:\n\n1.  **Como treinar uma IA para resolver problemas de desconexão** de dispositivos de rastreamento (causas, diagnóstico, soluções, escalonamento).\n2.  **Diretrizes e protocolos para treinar a IA Flash (eu mesma)** para lidar com suporte técnico na Loovi (trocas, resets, cobranças, vendas, agendamentos, etc.), focando em clareza, empatia, precisão legal e conformidade.\n\nOs documentos não descrevem o funcionamento do serviço de rastreamento da Loovi para um cliente final (como a instalação, o aplicativo, os recursos de monitoramento, etc.).\n\nCom base nos documentos fornecidos, não consigo detalhar como o serviço de rastreamento funciona do ponto de vista do usuário. Para isso, seria necessário consultar materiais de marketing, manuais do usuário ou a descrição do serviço no site da Loovi.\n\nSe tiver alguma dúvida sobre **resolução de problemas de desconexão** ou sobre os **procedimentos de suporte técnico** que eu sigo (como troca de dispositivo, reset, etc.), posso ajudar com base nos documentos!"
+  },
+  {
+    "role": "user",
+    "message": "me fale sobre os procedimentos de suporte técnico"
+  }
+]

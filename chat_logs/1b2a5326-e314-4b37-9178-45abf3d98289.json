@@ -1,0 +1,22 @@
+[
+  {
+    "role": "user",
+    "message": "fale pra mim como que funciona os 2 rastreadores da loovi",
+    "timestamp": "2025-06-03T12:07:00.127439"
+  },
+  {
+    "role": "assistant",
+    "message": "A Loovi oferece dois tipos de rastreadores:\n\n1. **Rastreador Opcional (Pago):** Este rastreador custa R$ 49,90 por mês e oferece rastreamento em tempo real através do aplicativo Loovi, permitindo que você veja a localização do seu veículo a qualquer momento.  Ele também armazena um histórico das rotas percorridas.  Assim como o rastreador gratuito, ele auxilia na recuperação do veículo em caso de roubo ou furto.\n\n2. **Rastreador Obrigatório (Gratuito):** Este rastreador é incluso sem custos adicionais (em comodato), mas não oferece acesso ao rastreamento em tempo real pelo aplicativo.  A Loovi monitora sua localização apenas para fins de recuperação do veículo em caso de roubo ou furto.  Você não poderá acompanhar o veículo em tempo real pelo app.\n",
+    "timestamp": "2025-06-03T12:07:05.679122"
+  },
+  {
+    "role": "user",
+    "message": "ja começou a ser feito os envios para os clientes?",
+    "timestamp": "2025-06-03T12:08:14.751670"
+  },
+  {
+    "role": "assistant",
+    "message": "Ainda não. A Loovi está confirmando endereços e espera iniciar os envios em até duas semanas. Você receberá um e-mail com o código de rastreio assim que o seu dispositivo for despachado.\n",
+    "timestamp": "2025-06-03T12:08:17.871356"
+  }
+]

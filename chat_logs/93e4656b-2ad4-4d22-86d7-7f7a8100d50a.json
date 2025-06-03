@@ -1,0 +1,82 @@
+[
+  {
+    "role": "user",
+    "message": "Gostaria de saber sobre a entrega do rastreador",
+    "timestamp": "2025-06-02T18:01:48.577661"
+  },
+  {
+    "role": "assistant",
+    "message": "A entrega do rastreador é gratuita e inclusa na sua mensalidade. Você receberá um e-mail com o código de rastreio para acompanhar a entrega.  No entanto, em alguns casos o rastreador é opcional e custa R$49,90.  Para rastreadores obrigatórios, o acompanhamento é feito internamente pela Loovi, e não através do aplicativo.\n",
+    "timestamp": "2025-06-02T18:01:51.997591"
+  },
+  {
+    "role": "user",
+    "message": "quando irão enviar o novo rastreador?",
+    "timestamp": "2025-06-02T18:02:15.894462"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! O envio dos novos rastreadores ainda não começou. A Loovi está confirmando os endereços e estima iniciar os envios em até duas semanas. Você receberá um e-mail com o código de rastreio assim que seu rastreador for enviado.\n",
+    "timestamp": "2025-06-02T18:02:18.519250"
+  },
+  {
+    "role": "user",
+    "message": "o que é o novo rastreador?",
+    "timestamp": "2025-06-02T18:03:42.625298"
+  },
+  {
+    "role": "assistant",
+    "message": "O novo rastreador Loovi é um dispositivo de segurança obrigatório incluído gratuitamente na sua assinatura. Ele permite o monitoramento em tempo real da localização do seu veículo em caso de furto ou roubo.  Importante ressaltar que o monitoramento é feito internamente pela equipe da Loovi e não através de um aplicativo.  Ele deve ser devolvido ao final do seu contrato.\n",
+    "timestamp": "2025-06-02T18:03:45.751688"
+  },
+  {
+    "role": "user",
+    "message": "Como qui funciona o restreador",
+    "timestamp": "2025-06-02T18:04:29.690617"
+  },
+  {
+    "role": "assistant",
+    "message": "Existem dois tipos de rastreadores Loovi. O seu, que é obrigatório e incluso sem custo adicional na sua assinatura, é monitorado pela nossa equipe.  Você não terá acesso a um aplicativo para acompanhar a localização em tempo real.  Este rastreador é enviado em comodato e deverá ser devolvido ao final do seu contrato.  Existe também um rastreador opcional, pago à parte (R$ 49,90 mensais), que permite o monitoramento via aplicativo com histórico de rotas. Ambos servem para localizar seu veículo em caso de furto ou roubo.\n",
+    "timestamp": "2025-06-02T18:04:33.353603"
+  },
+  {
+    "role": "user",
+    "message": "Rastreador\n\nFalaram que iam mandar\n\nAté agora nada",
+    "timestamp": "2025-06-02T18:12:09.052297"
+  },
+  {
+    "role": "assistant",
+    "message": "Entendo que você ainda não recebeu o código de rastreio do seu rastreador Loovi.  Como o rastreador é obrigatório no seu plano, ele deveria ter sido enviado.  Por favor, verifique sua caixa de entrada de e-mails, incluindo a pasta de spam ou lixo eletrônico. Se você não encontrar o e-mail com o código de rastreio, entre em contato com a Loovi para verificar o status do envio.\n",
+    "timestamp": "2025-06-02T18:12:13.086106"
+  },
+  {
+    "role": "user",
+    "message": "Gostaria de saber se vocês tem rastreador para os segurados?",
+    "timestamp": "2025-06-03T09:20:34.971549"
+  },
+  {
+    "role": "assistant",
+    "message": "Sim, a Loovi oferece dois tipos de rastreadores para seus segurados.  Um rastreador é obrigatório e incluso sem custo adicional na sua assinatura, mas sem acesso ao aplicativo de monitoramento. O outro é opcional, com custo de R$ 49,90 mensais, e oferece monitoramento em tempo real via aplicativo, além de histórico de rotas.  Ambos os rastreadores servem para localizar seu veículo em caso de furto ou roubo.\n",
+    "timestamp": "2025-06-03T09:20:39.729970"
+  },
+  {
+    "role": "user",
+    "message": "Recebi uma mensagem falando que iriam mandar um rastreador pra mim, mas até agora não chegou nada",
+    "timestamp": "2025-06-03T09:22:09.859588"
+  },
+  {
+    "role": "assistant",
+    "message": "Entendo que você recebeu uma mensagem informando sobre o envio de um rastreador, mas ainda não o recebeu.  Como mencionado anteriormente, o rastreador gratuito e obrigatório inclui um código de rastreio enviado por e-mail para monitorar o envio.  Por favor, verifique novamente sua caixa de entrada, incluindo as pastas de spam e lixo eletrônico. Se você ainda não encontrar o e-mail com o código de rastreio, entre em contato diretamente com a Loovi para que possamos verificar o status do seu envio e solucionar o problema.  Lembre-se que a ausência do rastreador não afeta a cobertura do seu serviço contra furto e roubo.\n",
+    "timestamp": "2025-06-03T09:22:13.529545"
+  },
+  {
+    "role": "user",
+    "message": "Recebi uma mensagem falando que iriam mandar um rastreador pra mim, mas até agora não chegou nada",
+    "timestamp": "2025-06-03T09:23:18.569651"
+  },
+  {
+    "role": "assistant",
+    "message": "Entendo a sua preocupação.  Como informado anteriormente, a Loovi enviará um rastreador obrigatório e gratuito.  Você receberá um e-mail com o código de rastreio para acompanhar a entrega.  Como os envios ainda não começaram, é normal que você ainda não tenha recebido o rastreador.  Por favor, verifique sua caixa de entrada, incluindo spam e lixo eletrônico, para ver se o e-mail com o código de rastreio já foi enviado. Se você não o encontrar, entre em contato diretamente com a Loovi para que possamos verificar o status do seu envio.  A ausência do rastreador, neste momento, não afeta a cobertura do seu serviço contra furto e roubo.\n",
+    "timestamp": "2025-06-03T09:23:22.245265"
+  }
+]

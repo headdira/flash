@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "message": "Como eu analiso se o caso do cliente é troca de dispositivo ou não",
+    "timestamp": "2025-05-14T08:47:57.088436"
+  },
+  {
+    "role": "assistant",
+    "message": "A troca de dispositivo é um procedimento específico para problemas de funcionamento **do próprio dispositivo Loovi**, após uma tentativa frustrada de reset.  Se o problema do cliente não for resolvido com um reset e estiver relacionado diretamente ao mau funcionamento do hardware do dispositivo (ex:  o dispositivo não liga, trava constantemente, etc.), então a troca de dispositivo é provavelmente a solução.  Problemas relacionados a outros serviços da Loovi (ex:  problemas com a conta, com a internet, com os aplicativos) **não** são elegíveis para troca de dispositivo.  Se o cliente descrever um problema que não seja de mau funcionamento do hardware do dispositivo em si,  a troca não é a solução adequada.\n",
+    "timestamp": "2025-05-14T08:48:00.224770"
+  }
+]

@@ -1,0 +1,10 @@
+[
+  {
+    "role": "user",
+    "message": "ola tudo bem?"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá! Tudo bem por aqui. Sou a inteligência artificial da Loovi. Como posso te ajudar hoje?"
+  }
+]

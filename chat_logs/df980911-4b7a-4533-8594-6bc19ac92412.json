@@ -1,0 +1,102 @@
+[
+  {
+    "role": "user",
+    "message": "bom dia",
+    "timestamp": "2025-05-14T08:39:30.259825"
+  },
+  {
+    "role": "assistant",
+    "message": "Bom dia! Como posso ajudar você hoje?\n",
+    "timestamp": "2025-05-14T08:39:33.555329"
+  },
+  {
+    "role": "user",
+    "message": "meu aplicativo esta com um erro de instalação pendente",
+    "timestamp": "2025-05-14T08:40:05.047972"
+  },
+  {
+    "role": "assistant",
+    "message": "Bom dia!  Entendo que você está com um \"erro de instalação pendente\" em seu aplicativo. Infelizmente, nossa base de conhecimento não contém informações específicas sobre como resolver esse tipo de erro.\n\nPara que eu possa ajudá-lo melhor, preciso de mais informações.  Você poderia me fornecer o nome do aplicativo e o sistema operacional que você está utilizando?  Se possível, um print da tela mostrando o erro seria muito útil.  Isso me permitirá tentar identificar a causa do problema e encontrar uma solução.\n",
+    "timestamp": "2025-05-14T08:40:08.217214"
+  },
+  {
+    "role": "user",
+    "message": "foi erro no app da loovi",
+    "timestamp": "2025-05-14T08:41:29.563904"
+  },
+  {
+    "role": "assistant",
+    "message": "Ok.  Como o erro é no app Loovi e a mensagem de erro não foi especificada,  minha base de conhecimento não possui informações para solucionar este problema diretamente.  Para que a equipe de suporte da Loovi possa te ajudar, por favor, me envie um print da tela mostrando o erro de instalação pendente.  Se o erro for \"ERRO DE SERVIDOR\",  o registro do problema já notificará nossa equipe de TI.  Sem o print da tela,  posso apenas sugerir que você tente reiniciar seu dispositivo e/ou verifique sua conexão com a internet.\n",
+    "timestamp": "2025-05-14T08:41:32.355186"
+  },
+  {
+    "role": "user",
+    "message": "é um erro de servidor",
+    "timestamp": "2025-05-14T08:42:31.999578"
+  },
+  {
+    "role": "assistant",
+    "message": "Ok.  Se o erro no aplicativo Loovi é um \"ERRO DE SERVIDOR\", por favor, tire um print da tela mostrando a mensagem de erro completa.  Envie este print por e-mail para [inserir aqui o endereço de e-mail para registro de dados -  este endereço precisa ser fornecido pela empresa].  Após enviar o print,  o caso será reportado automaticamente à nossa equipe de TI para resolução.  A equipe entrará em contato assim que possível.  Agradecemos a sua paciência.\n",
+    "timestamp": "2025-05-14T08:42:35.294493"
+  },
+  {
+    "role": "user",
+    "message": "preciso enviar uma suporte por email a respeito de duvidas sobre o serviço de rastreamento da loovi",
+    "timestamp": "2025-05-14T08:44:05.292293"
+  },
+  {
+    "role": "assistant",
+    "message": "Para dúvidas sobre o serviço de rastreamento da Loovi, por favor, entre em contato com o suporte através do e-mail expedicao@loovi.com.br.  Lembre-se que o serviço custa R$ 49,90 mensais e inclui rastreamento em tempo real, histórico de rotas e suporte em caso de furto ou roubo. A instalação do rastreador é opcional.\n",
+    "timestamp": "2025-05-14T08:44:08.330368"
+  },
+  {
+    "role": "user",
+    "message": "quero contratar o serviço de smart car",
+    "timestamp": "2025-05-14T09:20:04.459579"
+  },
+  {
+    "role": "assistant",
+    "message": "Sinto muito, mas não tenho informações sobre um serviço chamado \"Smart Car\" no contexto da Loovi.  O meu conhecimento se limita ao serviço de rastreamento Loovi, que custa R$ 49,90 mensais e inclui rastreamento em tempo real, histórico de rotas e suporte em caso de furto ou roubo.  Se você tem interesse neste serviço, por favor, entre em contato com expedicao@loovi.com.br para mais informações.\n",
+    "timestamp": "2025-05-14T09:20:09.636262"
+  },
+  {
+    "role": "user",
+    "message": "tenho duvidas sobre o smart car",
+    "timestamp": "2025-05-14T09:20:43.255057"
+  },
+  {
+    "role": "assistant",
+    "message": "Compreendo que você tenha dúvidas sobre o Smart Car.  Baseado no meu conhecimento atual, o serviço de rastreamento da Loovi, que pode ser o que você está procurando,  é chamado simplesmente de \"Rastreamento Loovi\" e não \"Smart Car\".  Ele custa R$ 49,90 mensais e inclui rastreamento em tempo real, histórico de rotas e suporte em caso de furto ou roubo. A instalação do rastreador é opcional, mas o suporte em caso de furto ou roubo está incluso no plano, independente da instalação do rastreador físico. Para tirar suas dúvidas sobre o serviço de rastreamento da Loovi, por favor, entre em contato com expedicao@loovi.com.br.\n",
+    "timestamp": "2025-05-14T09:20:47.266922"
+  },
+  {
+    "role": "user",
+    "message": "me explique sobre o smart car",
+    "timestamp": "2025-05-14T09:21:24.258540"
+  },
+  {
+    "role": "assistant",
+    "message": "Entendo que você deseja informações sobre o \"Smart Car\".  De acordo com a minha base de conhecimento, não existe um serviço chamado \"Smart Car\" oferecido pela Loovi.  O serviço de rastreamento veicular da Loovi, que custa R$ 49,90 por mês,  não utiliza essa denominação.  Ele oferece rastreamento em tempo real, histórico de rotas e auxílio em casos de furto ou roubo, com ou sem a instalação de um rastreador físico.  Se \"Smart Car\" é um nome alternativo para este serviço ou se refere a um serviço diferente,  por favor, forneça mais detalhes para que eu possa ajudá-lo melhor.  Caso deseje informações sobre o serviço de rastreamento veicular da Loovi,  entre em contato com expedicao@loovi.com.br.\n",
+    "timestamp": "2025-05-14T09:21:29.139370"
+  },
+  {
+    "role": "user",
+    "message": "contratei o seguro mas nao recebi o rastreador",
+    "timestamp": "2025-05-14T09:22:30.046869"
+  },
+  {
+    "role": "assistant",
+    "message": "Compreendo que você contratou o seguro, mas não recebeu o rastreador.  O rastreador é um serviço opcional e vendido separadamente do seguro, custando R$ 49,90 mensais.  Para verificar o seu pedido e solicitar o envio do dispositivo, por favor, entre em contato com a Loovi diretamente.  A equipe da Loovi poderá ajudar a localizar seu pedido e providenciar o envio do rastreador.\n",
+    "timestamp": "2025-05-14T09:22:33.284765"
+  },
+  {
+    "role": "user",
+    "message": "achei que ja vinha incluso",
+    "timestamp": "2025-05-14T09:23:12.560816"
+  },
+  {
+    "role": "assistant",
+    "message": "Entendo a sua frustração.  De acordo com a nossa base de conhecimento, o rastreador veicular **não está incluído** no seguro.  Ele é um serviço adicional que custa R$ 49,90 por mês. O seguro, por sua vez, inclui cobertura contra furto e roubo, e o rastreamento é acionado nesses casos, mesmo sem o rastreador instalado.  Para esclarecer o seu contrato e entender por que você acreditou que o rastreador estava incluído,  recomendo entrar em contato diretamente com a Loovi através do email expedicao@loovi.com.br ou pelo telefone (número de telefone, se disponível na sua base de conhecimento). Eles poderão fornecer mais informações sobre o seu plano específico e auxiliar na resolução da questão.\n",
+    "timestamp": "2025-05-14T09:23:16.096248"
+  }
+]

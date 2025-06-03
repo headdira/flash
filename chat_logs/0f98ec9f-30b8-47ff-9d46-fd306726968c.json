@@ -1,0 +1,142 @@
+[
+  {
+    "role": "user",
+    "message": "quem é voce?",
+    "timestamp": "2025-05-12T11:35:41.286362"
+  },
+  {
+    "role": "assistant",
+    "message": "Sou um assistente de suporte técnico especializado.\n",
+    "timestamp": "2025-05-12T11:35:44.947512"
+  },
+  {
+    "role": "user",
+    "message": "como faço a cobrança de dispositivos?",
+    "timestamp": "2025-05-12T11:36:09.835710"
+  },
+  {
+    "role": "assistant",
+    "message": "Nenhum contexto relevante encontrado na base de conhecimento.\n",
+    "timestamp": "2025-05-12T11:36:11.642043"
+  },
+  {
+    "role": "user",
+    "message": "o que voce pode fazer?",
+    "timestamp": "2025-05-12T11:36:56.160251"
+  },
+  {
+    "role": "assistant",
+    "message": "Sou um assistente de suporte técnico especializado.\n",
+    "timestamp": "2025-05-12T11:36:57.621972"
+  },
+  {
+    "role": "user",
+    "message": "somente isso?",
+    "timestamp": "2025-05-12T11:37:05.312731"
+  },
+  {
+    "role": "assistant",
+    "message": "Sim.\n",
+    "timestamp": "2025-05-12T11:37:06.673908"
+  },
+  {
+    "role": "user",
+    "message": "quem é voce?",
+    "timestamp": "2025-05-12T11:38:09.769548"
+  },
+  {
+    "role": "assistant",
+    "message": "Eu sou a Lovia, inteligência artificial da Loovi.\n",
+    "timestamp": "2025-05-12T11:38:11.253554"
+  },
+  {
+    "role": "user",
+    "message": "ola",
+    "timestamp": "2025-05-12T11:38:30.091985"
+  },
+  {
+    "role": "assistant",
+    "message": "Olá.\n",
+    "timestamp": "2025-05-12T11:38:31.416007"
+  },
+  {
+    "role": "user",
+    "message": "estou com duvidas sobre suporte prevetivo",
+    "timestamp": "2025-05-12T11:39:53.971687"
+  },
+  {
+    "role": "assistant",
+    "message": "Como especialista em suporte técnico de rastreadores Loovi, posso te ajudar com suas dúvidas sobre o processo de troca do seu rastreador. Qual é a sua dúvida?\n",
+    "timestamp": "2025-05-12T11:39:56.110046"
+  },
+  {
+    "role": "user",
+    "message": "o que preciso para realizar a troca do dispositivo?",
+    "timestamp": "2025-05-12T11:40:37.391142"
+  },
+  {
+    "role": "assistant",
+    "message": "Para realizar a troca do dispositivo, você precisa:\n\n1.  Embalar *Apenas o Dispositivo* (Você deverá permanecer com a Loovi Box e o Cabo Extensor) em uma caixinha de papelão (não precisa ser a metálica da Loovi).\n2.  Ir à agência dos Correios mais próxima de sua casa, munido de um documento de identificação e do código de devolução (a postagem é gratuita).\n3.  Confirmar o endereço para envio do novo dispositivo.\n\nApós a postagem do dispositivo antigo, um novo será enviado para o seu endereço.\n",
+    "timestamp": "2025-05-12T11:40:39.185044"
+  },
+  {
+    "role": "user",
+    "message": "estou com duvidas em suporte preventivo",
+    "timestamp": "2025-05-12T11:44:13.196694"
+  },
+  {
+    "role": "assistant",
+    "message": "Não tenho informações sobre suporte preventivo. Posso te ajudar com dúvidas sobre a troca do seu rastreador?\n",
+    "timestamp": "2025-05-12T11:44:14.470444"
+  },
+  {
+    "role": "user",
+    "message": "sim",
+    "timestamp": "2025-05-12T11:44:25.542267"
+  },
+  {
+    "role": "assistant",
+    "message": "Para prosseguirmos com a troca do rastreador preciso que me confirme o seu endereço onde será realizado a entrega, permanece este mesmo endereço? [Endereço do Cliente Aqui]\n",
+    "timestamp": "2025-05-12T11:44:27.775143"
+  },
+  {
+    "role": "user",
+    "message": "como realizar a troca?",
+    "timestamp": "2025-05-12T11:44:45.247063"
+  },
+  {
+    "role": "assistant",
+    "message": "Será preciso realizarmos a troca de seu dispositivo. Para isso, precisamos seguir três passos simples:\n\n1 - Você deverá embalar *Apenas o Dispositivo* (Você deverá permanecer com a Loovi Box e o Cabo Extensor) em uma caixinha de papelão _(não precisa ser a metálica da Loovi)_\n2 - Após embalar, basta ir à agência dos Correios mais próxima de sua casa, munido de um documento de identificação e do código de devolução (com ele, a postagem será gratuita, além de ter o nosso endereço)\n3 - Assim que realizar a postagem, enviaremos um dispositivo novinho em seu endereço!\n",
+    "timestamp": "2025-05-12T11:44:46.954267"
+  },
+  {
+    "role": "user",
+    "message": "o que vc sabe fazer?",
+    "timestamp": "2025-05-12T11:50:36.760750"
+  },
+  {
+    "role": "assistant",
+    "message": "Posso te ajudar com dúvidas sobre a troca do seu rastreador ou sobre a devolução do dispositivo. Também posso te auxiliar com o procedimento de reset do dispositivo.\n",
+    "timestamp": "2025-05-12T11:50:41.640278"
+  },
+  {
+    "role": "user",
+    "message": "me ajude com devolução do dispositivo",
+    "timestamp": "2025-05-12T11:51:03.720213"
+  },
+  {
+    "role": "assistant",
+    "message": "Segue abaixo as informações para devolução do Rastreador:\n\n*1* - Você deverá embalar *o Dispositivo e o Cabo Extensor* em uma caixinha de papelão.\n\n*2* - Após embalar, basta ir à agência dos Correios mais próxima de sua casa, munido de um documento de identificação e do Endereço da Loovi para envio. Segue o endereço: R. Queluzita, 34, 18º andar - Dom Joaquim, Belo Horizonte–MG, 31170-679. /\n\n**2** - Após embalar, basta ir à agência dos Correios mais próxima de sua casa, munido de um documento de identificação e do código de devolução (com ele, a postagem será gratuita além de ter o nosso endereço)\n\n*3* - Assim que realizar a postagem, por favor, envie-nos o comprovante.\n",
+    "timestamp": "2025-05-12T11:51:06.225287"
+  },
+  {
+    "role": "user",
+    "message": "o que acontece caso o cliente não devolva o dispositivo?",
+    "timestamp": "2025-05-12T11:51:35.953383"
+  },
+  {
+    "role": "assistant",
+    "message": "Lembrando que o dispositivo Loovi, foi enviado a você em modelo de comodato, como consta no contrato aceito. A não devolução dentro do prazo acarreta a cobrança do aparelho, no valor de R$ 894,73. A não devolução pode gerar um protesto cartorial.\n",
+    "timestamp": "2025-05-12T11:51:37.760912"
+  }
+]

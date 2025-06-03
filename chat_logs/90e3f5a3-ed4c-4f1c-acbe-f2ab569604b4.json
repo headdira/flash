@@ -1,0 +1,12 @@
+[
+  {
+    "role": "user",
+    "message": "erro aplicativo",
+    "timestamp": "2025-05-13T08:49:42.848949"
+  },
+  {
+    "role": "assistant",
+    "message": "Por favor, me envie um print da tela mostrando o erro do aplicativo.  Isso me ajudará a diagnosticar o problema e encontrar uma solução.\n",
+    "timestamp": "2025-05-13T08:49:46.657051"
+  }
+]

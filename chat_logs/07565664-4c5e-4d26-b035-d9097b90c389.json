@@ -1,0 +1,62 @@
+[
+  {
+    "role": "user",
+    "message": "colee",
+    "timestamp": "2025-05-12T17:11:00.146281"
+  },
+  {
+    "role": "assistant",
+    "message": "Desculpe, mas não tenho informações sobre \"colee\" na minha base de conhecimento.  Você poderia me dar mais detalhes ou reformular sua pergunta?\n",
+    "timestamp": "2025-05-12T17:11:02.728556"
+  },
+  {
+    "role": "user",
+    "message": "problema aplicativo",
+    "timestamp": "2025-05-12T17:11:19.574426"
+  },
+  {
+    "role": "assistant",
+    "message": "Para ajudá-lo com o problema que você está tendo com o aplicativo, preciso de mais informações.  Você poderia descrever o problema com mais detalhes?  \n\nSe o problema for com o funcionamento do aplicativo em si, tentar um reset do dispositivo pode resolver o problema.  Você pode encontrar instruções detalhadas em nosso artigo \"Como realizar o procedimento de reset no dispositivo\".  Se o reset não resolver o problema, precisaremos iniciar o processo de troca do dispositivo.  Por favor, entre em contato com o suporte para prosseguir com a troca.\n\nSe o seu problema for relacionado ao rastreamento de veículos através do aplicativo Loovi (um recurso opcional), por favor, me informe e descreva o problema específico com o rastreamento.\n",
+    "timestamp": "2025-05-12T17:11:22.990366"
+  },
+  {
+    "role": "user",
+    "message": "opa",
+    "timestamp": "2025-05-13T08:42:36.049561"
+  },
+  {
+    "role": "assistant",
+    "message": "Desculpe, \"opa\" não me fornece informações suficientes para entender seu problema. Você poderia por favor reformular sua pergunta ou descrever o problema que está enfrentando?\n",
+    "timestamp": "2025-05-13T08:43:02.030006"
+  },
+  {
+    "role": "user",
+    "message": "reset de dispositivo",
+    "timestamp": "2025-05-13T08:43:22.010471"
+  },
+  {
+    "role": "assistant",
+    "message": "Para resetar seu dispositivo, abra-o, desconecte a bateria por alguns segundos, reconecte-a, feche o dispositivo e conecte-o ao veículo.  Se isso não resolver o problema,  a troca do dispositivo será necessária.  Neste caso, embale o dispositivo cuidadosamente e envie-o para a Loovi para receber um novo.  Entre em contato com o nosso suporte para obter instruções sobre como enviar o dispositivo.\n",
+    "timestamp": "2025-05-13T08:43:25.463443"
+  },
+  {
+    "role": "user",
+    "message": "como funciona o procedimento de troca",
+    "timestamp": "2025-05-13T08:43:50.769560"
+  },
+  {
+    "role": "assistant",
+    "message": "Para trocar seu dispositivo, você precisa embalar o dispositivo (sem a Loovi Box e o cabo) e levá-lo aos Correios utilizando o código de devolução que lhe será fornecido (a postagem é gratuita). Após o envio, um novo dispositivo será enviado ao seu endereço em até 7 dias úteis.  Entre em contato com nosso suporte para obter o código de devolução.\n",
+    "timestamp": "2025-05-13T08:43:53.233072"
+  },
+  {
+    "role": "user",
+    "message": "erro no aplicativo",
+    "timestamp": "2025-05-13T08:44:34.982043"
+  },
+  {
+    "role": "assistant",
+    "message": "Antes de solicitarmos a troca do seu dispositivo, por favor, tente um reset nele.  Você pode encontrar instruções detalhadas em nosso artigo \"Como realizar o procedimento de reset no dispositivo\". Se o erro persistir após o reset, entre em contato conosco novamente para solicitarmos a troca.\n",
+    "timestamp": "2025-05-13T08:44:37.739995"
+  }
+]
