@@ -2,5 +2,6 @@ flask==2.3.2
 gunicorn==20.1.0
 python-dotenv==1.0.0
 google-generativeai==0.3.0
+sentence-transformers==2.2.2  # Se realmente necessário
 faiss-cpu==1.7.4  # Versão CPU para economizar memória
 numpy==1.24.0  # Versão fixa para evitar conflitos
